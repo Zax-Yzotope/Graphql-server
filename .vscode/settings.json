@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/970f0744-2e30-4349-bd3a-f635f8b78ad3/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/apigraphqldavidamyot",
+    "appService.deploySubpath": ""
+}
