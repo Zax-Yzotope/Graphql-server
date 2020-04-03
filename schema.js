@@ -8,21 +8,21 @@ const { Client } = require('pg')
 
 //========================= CONNEXION DATABASE POSTGRESQL =========================//
 const client = new Client({
-    host: "codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com",
+    host: process.env.PG_HOST,
     port: "5432",
-    database: "DavidAmyot",
-    user: "codeboxx",
-    password: "Codeboxx1!",
+    database: process.env.MYSQL_DB,
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
 })
 client.connect()
 
 //========================= CONNEXION DATABASE MYSQL =========================//
 var con = mysql.createConnection({
-    host: "codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com",
+    host: process.env.MYSQL_HOST,
     port:"3306",
-    user: "codeboxx",
-    password: "Codeboxx1!",
-    database: "DavidAmyot",
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DB,
 });
 con.connect(function(err) {
     // if (err) throw err;
