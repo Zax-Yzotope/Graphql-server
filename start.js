@@ -44,6 +44,11 @@ app.use('/graphql', graphqlHTTP({
 
 }));
 
-app.listen(4000,() => {
-    console.log("It is listenning, patate!")
-})
+// app.listen(4000,() => {
+//     console.log("It is listenning, patate!")
+// })
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(" PATATE Our app is running on port");
+});
