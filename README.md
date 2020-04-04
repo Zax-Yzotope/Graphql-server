@@ -28,7 +28,8 @@ Replace intervention id by the one of the specified intervention (intervention i
 }
 
 
-Retrieving customer information and the list of interventions that took place for a specific building
+-------------------------------------------------------------------------------------
+2 - etrieving customer information and the list of interventions that took place for a specific building
 Replace building id by the one of the specified building
 
 
@@ -45,8 +46,8 @@ Replace building id by the one of the specified building
     }
 }
 
-
-Retrieval of all interventions carried out by a specified employee with the buildings associated with these interventions including the details (Table BuildingDetails) associated with these buildings.
+-------------------------------------------------------------------------------------------------------------
+3 - Retrieval of all interventions carried out by a specified employee with the buildings associated with these interventions including the details (Table BuildingDetails) associated with these buildings.
 Replace employee id by the one of the specified employee
 
 
