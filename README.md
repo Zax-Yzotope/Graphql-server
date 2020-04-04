@@ -2,16 +2,12 @@
 
 With this API we could query by GraphQL to database MySQL and Postgres.
 
-If you use Postman, click here to access of the collection: 
-https://blablablablabla
-
-
-About GraphQL, choose the folder GraphQL API. In this folder you are going to find three kind of queries.
-
 Here, a example of these queries :
 
-# Retrieving the address of the building, the beginning and the end of the intervention for a specific intervention.
-# Replace intervention id by the one of the specified intervention (intervention id is to string)
+1 - Retrieving the address of the building, the beginning and the end of the intervention for a specific intervention.
+Replace intervention id by the one of the specified intervention (intervention id is to string)
+
+
 {
   intervention(id: "1"){
     id
@@ -32,8 +28,10 @@ Here, a example of these queries :
 }
 
 
-# Retrieving customer information and the list of interventions that took place for a specific building
-# Replace building id by the one of the specified building
+Retrieving customer information and the list of interventions that took place for a specific building
+Replace building id by the one of the specified building
+
+
 {
     building(id: 1){
         id
@@ -48,8 +46,11 @@ Here, a example of these queries :
 }
 
 
-# Retrieval of all interventions carried out by a specified employee with the buildings associated with these interventions including the details (Table BuildingDetails) associated with these buildings.
-# Replace employee id by the one of the specified employee
+Retrieval of all interventions carried out by a specified employee with the buildings associated with these interventions including the details (Table BuildingDetails) associated with these buildings.
+Replace employee id by the one of the specified employee
+
+
+
 {
     employee(id: 1){
         id
