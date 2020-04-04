@@ -2,7 +2,7 @@
 
 With this API we could query by GraphQL to database MySQL and Postgres.
 
-Here, a example of these queries :
+Here, three examples of queries:
 
 1 - Retrieving the address of the building, the beginning and the end of the intervention for a specific intervention.
 Replace intervention id by the one of the specified intervention (intervention id is to string)
