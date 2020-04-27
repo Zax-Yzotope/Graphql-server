@@ -10,7 +10,7 @@ const { Client } = require('pg')
 const client = new Client({
     host: process.env.PG_HOST,
     port: "5432",
-    database: process.env.MYSQL_DB,
+    database: process.env.POSTGRES_DB,
     user: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASSWORD,
 })
